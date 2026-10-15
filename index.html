@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Pisang Coklat Meses, camilan lezat dengan pilihan rasa Taro, Matcha, dan Cokelat.">
+
+  <title>Pisang Coklat Meses | Toko Camilan</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGASI -->
+  <header class="navbar">
+    <div class="container nav-content">
+
+      <a href="#beranda" class="brand">
+        <img
+          src="assets/logo-pisang-coklat.png"
+          alt="Logo Pisang Coklat Meses">
+        <span>Pisang Coklat <b>Meses</b></span>
+      </a>
+
+      <button
+        type="button"
+        id="menuToggle"
+        class="menu-toggle"
+        aria-label="Buka menu"
+        aria-expanded="false">
+        ☰
+      </button>
+
+      <nav id="navLinks">
+        <a href="#beranda">Beranda</a>
+        <a href="#produk">Produk</a>
+        <a href="#pesan">Pemesanan</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- BERANDA -->
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+
+        <div class="hero-text">
+          <span class="badge">🍌 Camilan Favoritmu</span>
+
+          <h1>
+            Pisang Coklat
+            <span>Meses</span>
+          </h1>
+
+          <p>
+            Nikmati kelezatan pisang cokelat dengan tiga
+            pilihan rasa favorit: Taro, Matcha, dan Cokelat.
+            Cocok untuk menemani waktu santai bersama teman
+            dan keluarga.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#produk" class="btn btn-primary">
+              Lihat Produk ↓
+            </a>
+
+            <a href="#pesan" class="btn btn-outline">
+              Pesan Sekarang
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="assets/logo-pisang-coklat.png"
+            alt="Logo produk Pisang Coklat Meses">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DAFTAR PRODUK -->
+    <section class="section container" id="produk">
+
+      <div class="section-title">
+        <span class="eyebrow">MENU KAMI</span>
+        <h2>Pilih Rasa Favoritmu</h2>
+        <p>
+          Tersedia tiga varian pisang cokelat yang bisa
+          kamu pilih sesuai selera.
+        </p>
+      </div>
+
+      <div class="product-grid">
+
+        <!-- PRODUK TARO -->
+        <article class="product-card">
+          <img
+            src="assets/taro.png"
+            alt="Pisang Coklat varian Taro"
+            class="product-image"
+            loading="lazy">
+
+          <div class="product-content">
+            <span class="flavor taro">TARO</span>
+
+            <h3>Pisang Coklat Taro</h3>
+
+            <p>
+              Topping taro ungu dengan rasa manis yang
+              lembut dan creamy.
+            </p>
+
+            <strong class="price">
+              Rp10.000 <small>/ porsi</small>
+            </strong>
+
+            <button
+              type="button"
+              class="btn btn-primary select-product"
+              data-product="taro">
+              Pilih Taro
+            </button>
+          </div>
+        </article>
+
+        <!-- PRODUK MATCHA -->
+        <article class="product-card">
+          <img
+            src="assets/matcha.png"
+            alt="Pisang Coklat varian Matcha"
+            class="product-image"
+            loading="lazy">
+
+          <div class="product-content">
+            <span class="flavor matcha">MATCHA</span>
+
+            <h3>Pisang Coklat Matcha</h3>
+
+            <p>
+              Perpaduan pisang cokelat dengan topping
+              matcha yang khas dan menggug
